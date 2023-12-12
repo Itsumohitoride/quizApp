@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="quiz-container quiz--shadow" id="quiz">
+        <div class="quiz-header">
+        </div>
+        <div class="quiz-middle quiz--shadow">
+            <div id="quiz-index">Question 1 (4 remaining)</div>
+            <h2 id="question">Question text</h2>
+            <p class="Answer">Answer options</p>
+            <div id="answer-container">
+                <ul>
+                    <li>
+                        <a class="quiz-letter">A</a>
+                        <input type="radio" class="answer" name="answer" id="a"><label id="a_text" for="a">Question</label>
+                    </li>
+                    <li>
+                        <a class="quiz-letter">B</a>
+                        <input type="radio" class="answer" name="answer" id="b"><label id="b_text" for="b">Question</label>
+                    </li>
+                    <li>
+                        <a class="quiz-letter">C</a>
+                        <input type="radio" class="answer" name="answer" id="c"><label id="c_text" for="c">Question</label>
+                    </li>
+                    <li>
+                        <a class="quiz-letter">D</a>
+                        <input type="radio" class="answer" name="answer" id="d"><label id="d_text" for="d">Question</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <button id="button">SEND ANSWER</button>
+        </div>
+    </div>
+</body>
+
+</html>
